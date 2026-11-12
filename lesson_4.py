@@ -10,7 +10,7 @@ elif a<0:
 else:
     print("Zero")
 
-# #Excercise 2: Simple Login Verification
+#Excercise 2: Simple Login Verification
 
 username= str(input("Enter Username:"))
 
@@ -24,7 +24,7 @@ if username == "admin":
 else:
     print("Invalid Username")
 
-# # Exercise 3: Grading System
+# Exercise 3: Grading System
 
 marks=float(input("Enter Marks: "))
 
@@ -56,8 +56,7 @@ if customer_age>=18:
 else:
     print("Ticket Booking Denied")
 
-Exercise 5: Employee Bonus Calculator
-
+#Exercise 5: Employee Bonus Calculator
 salary= float(input("Enter your Salary:  "))
 experience= float(input("Enter your experience(in years):  "))
 rating= float(input("Enter your performance rating: "))
@@ -69,7 +68,7 @@ elif salary>=25000 and rating>=7 and experience>=2:
 else:
     print("Not eligible for bonus")
 
-# Exercise 6: ATM Withdrawal:
+#Exercise 6: ATM Withdrawal:
 
 account_balance=float(input("Enter your account balance: "))
 if account_balance < 0:
