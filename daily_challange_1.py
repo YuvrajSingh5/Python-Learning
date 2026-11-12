@@ -4,26 +4,26 @@
 # The sum of all odd numbers from 1 to n.
 # Total count of numbers divisible by 3.
 
-# n=int(input("Enter a positive integer: "))
-# etotal=0
-# ototal=0
-# count=0
+n=int(input("Enter a positive integer: "))
+etotal=0
+ototal=0
+count=0
 
-# if n<=0:
-#     print("Invalid Input.")
-# else:
-#         for i in range(2,n+1,2):
-#          etotal=etotal+i
-#         print(f"Sum of Even Numbers: {etotal}")
+if n<=0:
+    print("Invalid Input.")
+else:
+         for i in range(2,n+1,2):
+          etotal=etotal+i
+         print(f"Sum of Even Numbers: {etotal}")
 
-#         for j in range(1,n+1,2):
-#          ototal=ototal+j
-#         print(f"Sum of Odd Numbers: {ototal}")
+         for j in range(1,n+1,2):
+          ototal=ototal+j
+         print(f"Sum of Odd Numbers: {ototal}")
 
-#         for k in range(3,n+1,3):
-#          if k%3==0:
-#           count+=1
-#         print(f"Count of numbers divisible by 3: {count}")  
+         for k in range(3,n+1,3):
+          if k%3==0:
+           count+=1
+         print(f"Count of numbers divisible by 3: {count}")  
 
 # Challenge 3: Problem-Solving – Number Guessing Game
 # Improve your previous guessing game.
